@@ -2,7 +2,7 @@ import json
 from ibm_watson import ToneAnalyzerV3
 from ibm_watson import ApiException
 
-text = 'hello :)'
+text = 'anxiety'
 
 def tone_analyzer(text):
     try:
